@@ -1,0 +1,33 @@
+{
+	"name": "sdbm",
+	"version": "0.0.0",
+	"description": "SDBM non-cryptographic hash function",
+	"license": "MIT",
+	"repository": "sindresorhus/sdbm",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"sdbm",
+		"algorithm",
+		"hash",
+		"hashing",
+		"string",
+		"function"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}

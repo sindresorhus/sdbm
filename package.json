@@ -1,6 +1,6 @@
 {
 	"name": "sdbm",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "SDBM non-cryptographic hash function",
 	"license": "MIT",
 	"repository": "sindresorhus/sdbm",

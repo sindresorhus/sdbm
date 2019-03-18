@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = string => {
+const sdbm = string => {
 	let hash = 0;
 
 	for (let i = 0; i < string.length; i++) {
@@ -10,3 +10,6 @@ module.exports = string => {
 	// Convert it to an unsigned 32-bit integer
 	return hash >>> 0;
 };
+
+module.exports = sdbm;
+module.exports.default = sdbm;

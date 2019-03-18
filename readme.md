@@ -21,7 +21,7 @@ sdbm('🦄🌈');
 //=> 4053542802
 ```
 
-It returns a positive integer.
+It returns the hash as a positive integer.
 
 
 ## Related

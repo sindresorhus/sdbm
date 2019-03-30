@@ -1,4 +1,4 @@
-import {expectType} from 'tsd-check';
-import sdbm from '.';
+import {expectType} from 'tsd';
+import sdbm = require('.');
 
 expectType<number>(sdbm('🦄🌈'));

@@ -12,4 +12,5 @@ const sdbm = string => {
 };
 
 module.exports = sdbm;
+// TODO: remove this in the next major version
 module.exports.default = sdbm;

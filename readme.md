@@ -1,4 +1,4 @@
-# sdbm [![Build Status](https://travis-ci.org/sindresorhus/sdbm.svg?branch=master)](https://travis-ci.org/sindresorhus/sdbm)
+# sdbm
 
 > [SDBM](http://www.cse.yorku.ca/~oz/hash.html#sdbm) non-cryptographic hash function
 

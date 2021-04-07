@@ -1,5 +1,5 @@
 import test from 'ava';
-import sdbm from '.';
+import sdbm from './index.js';
 
 test('main', t => {
 	t.is(sdbm(''), 0);

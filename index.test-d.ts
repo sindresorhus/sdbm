@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import sdbm = require('.');
+import sdbm from './index.js';
 
 expectType<number>(sdbm('🦄🌈'));

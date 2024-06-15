@@ -6,8 +6,8 @@
 
 ## Install
 
-```
-$ npm install sdbm
+```sh
+npm install sdbm
 ```
 
 ## Usage

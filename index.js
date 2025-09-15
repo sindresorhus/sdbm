@@ -7,6 +7,7 @@ function sdbmHash(input, options) {
 		} else {
 			let hash = 0n;
 			for (let index = 0; index < input.length; index++) {
+				// eslint-disable-next-line unicorn/prefer-code-point -- SDBM operates on UTF-16 code units, not Unicode code points
 				hash = BigInt(input.charCodeAt(index)) + (hash << 6n) + (hash << 16n) - hash;
 			}
 

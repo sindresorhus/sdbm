@@ -1,4 +1,4 @@
-export interface Options {
+export type Options = {
 	/**
 	Process the input string as UTF-8 bytes instead of UTF-16 code units.
 
@@ -7,7 +7,7 @@ export interface Options {
 	@default false
 	*/
 	readonly bytes?: boolean;
-}
+};
 
 /**
 [SDBM](http://www.cse.yorku.ca/~oz/hash.html#sdbm) non-cryptographic hash function.
